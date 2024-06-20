@@ -1,6 +1,6 @@
 'use client';
 
-import GenerateZkProofComponent from "../_components/GenerateZkProofComponent";
+import GenerateZkProofComponent from "../_components/GenerateZkProof";
 
 
 export default function page() {

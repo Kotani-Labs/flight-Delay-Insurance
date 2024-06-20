@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation"
 import { useAccount } from '@/context/AccountContext';
 import useWalletConnection from "@/hooks/useWalletConnection";
 import FlightDetailsVerification from "./app/_components/FlightDetailsVerification";
-import GenerateZkProofComponent from "./app/_components/GenerateZkProofComponent";
+import GenerateZkProofComponent from "./app/_components/GenerateZkProof";
 
 
 export interface AccountType {
