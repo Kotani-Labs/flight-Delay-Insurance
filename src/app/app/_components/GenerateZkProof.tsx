@@ -1,19 +1,6 @@
 import { useState } from "react";
 import { Loader2 } from "lucide-react";
-
-
-
-interface ConnectorResponse {
-	taskId: string;
-	uHash: string;
-	publicFieldsHash: string;
-	validatorAddress: string;
-	allocatorSignature: string;
-	allocatorAddress: string;
-	recipient: string;
-	publicFields: any[];
-	validatorSignature: string;
-  }
+import { Button } from "@/components/ui/button";
 
 
 
@@ -24,8 +11,8 @@ const GenerateZkProofComponent = ({ goToPreviousStep, goToNextStep }) => {
     <div>
       <h2>Generate ZK Proof</h2>
       {loading && <Loader2 className="animate-spin" size={20} />}
-      <button onClick={goToNextStep}>Next</button>
-      <button onClick={goToPreviousStep}>Back</button>
+      <Button className="rounded-r-full rounded-bl-full text-white bg-blue-400" onClick={goToNextStep}>Next</Button>
+      <Button className="rounded-r-full rounded-bl-full text-white bg-blue-400" onClick={goToPreviousStep}>Back</Button>
     </div>
   );
 }
