@@ -56,6 +56,7 @@ const Illustration = () => {
 						<p className="text-sm text-gray-400 font-medium translate-x-5">Join 5.000+ users</p>
 					</div> */}
 				</div>
+				<p>Powered by zkpass</p>
 			</div>
 			<div
 				className="absolute inset-0 my-auto h-[500px]"
